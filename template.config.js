@@ -1,7 +1,6 @@
 Module.exports = {
-  // Nome do template
   title: 'Tecnologies',
-
-  // Descrição do template
+  placeholderName: 'Tecnologies',
   description: 'Template Tecnologies',
+  templateDir: '/.',
 };
