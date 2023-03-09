@@ -1,6 +1,4 @@
-Module.exports = {
-  title: 'Tecnologies',
-  placeholderName: 'Tecnologies',
-  description: 'Template Tecnologies',
-  templateDir: '/.',
-};
+module.exports = {
+    placeholderName: "Tecnologies",
+    templateDir: "./template",
+  };
