@@ -6210,7 +6210,7 @@ react-native-share@^8.2.1:
   resolved "https://registry.npmjs.org/react-native-share/-/react-native-share-8.2.1.tgz"
   integrity sha512-dUIgrcdg4nOHrbKN1w+hs17RZ+51NeXd62CEezPAd4tEyj2Ki1qeAxWnJe8ZPRwvB5/6ml7YUR/2PJApxGHCAQ==
 
-react-native@*, react-native@>=0.59, react-native@0.71.3:
+react-native@*, react-native@^0.71.3, react-native@>=0.59:
   version "0.71.3"
   resolved "https://registry.npmjs.org/react-native/-/react-native-0.71.3.tgz"
   integrity sha512-RYJXCcQGa4NTfKiPgl92eRDUuQ6JGDnHqFEzRwJSqEx9lWvlvRRIebstJfurzPDKLQWQrvITR7aI7e09E25mLw==

@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.estudoeteste"
+    namespace "com.tecnologies"
     defaultConfig {
-        applicationId "com.estudoeteste"
+        applicationId "com.tecnologies"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
