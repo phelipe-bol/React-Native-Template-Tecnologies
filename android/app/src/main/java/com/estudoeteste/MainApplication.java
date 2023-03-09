@@ -1,4 +1,4 @@
-package com.estudoeteste;
+package com.tecnologies;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
