@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {useSelector, useDispatch} from 'react-redux';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import {TesteRedux, RestAsync} from '../reduxes/slice';
 import {Container, Text, Buttom, TextInput} from '../style/styled';
@@ -46,6 +47,7 @@ const Main = ({navigation}) => {
         <Text>Pagina de Salvar imagem</Text>
       </Buttom>
       <Text>{TextRedux}</Text>
+      <Icon name="home" size={30} color="#900" />
       <Comp2 />
       <Comp3 />
     </Container>
