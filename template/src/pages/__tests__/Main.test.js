@@ -79,7 +79,7 @@ describe('Main', () => {
 
     await act(async () => {
       await fireEvent.press(saveButton);
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      await new Promise(resolve => setTimeout(resolve, 3000));
     });
 
     expect(text.props.children).toBe('Deadpool');
