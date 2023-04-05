@@ -1,4 +1,4 @@
-package com.tecnologies;
+package com.Tecnologies;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

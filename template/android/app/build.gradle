@@ -94,9 +94,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.tecnologies"
+    namespace "com.Tecnologies"
     defaultConfig {
-        applicationId "com.tecnologies"
+        applicationId "com.Tecnologies"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -167,6 +167,7 @@ dependencies {
         implementation jscFlavor
     }
     implementation project(':react-native-vector-icons')
+
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

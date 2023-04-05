@@ -16,7 +16,7 @@ const CompStateRedux = ({navigation}) => {
 
   return (
     <Container>
-      <TextInput onChangeText={setInput} value={Input} />
+      <TextInput onChangeText={setInput} value={Input} testID="nv-redux" />
       <Buttom
         onPress={() => {
           setInput('');
@@ -32,7 +32,7 @@ const CompStateRedux = ({navigation}) => {
       </Buttom>
       <Text>{TextRedux}</Text>
       <Comp4 />
-      <Comp5 />s
+      <Comp5 />
     </Container>
   );
 };
